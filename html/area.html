@@ -5,20 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Area of Triangle</title>
 </head>
 
 <body>
-    <h1>Calculate Area of a triangle</h1>
-    <label for="">Enter base side of a triangle</label>
-    <input type="number" class="side-input">
-    <label for="">Enter height side of a triangle</label>
-    <!-- <input type="number" class="side-input">
+    <nav class="navigation container">
+        <div>
+            <h3 class="nav-brand">fun with triangles</h3>
+            <ul class="non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link" href="../index.html">isTriangle</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link link-active" href="quiz.html">quiz</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="hypotenuse.html">hypotenuse</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="hypotenuse.html">area of triangle</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <h1>Calculate Area of a triangle</h1>
+        <label for="">Enter base side of a triangle</label>
+        <input type="number" class="side-input">
+        <label for="">Enter height side of a triangle</label>
+        <!-- <input type="number" class="side-input">
     <label for="">Enter third side of a triangle</label> -->
-    <input type="number" class="side-input">
-    <button id="calculate-btn">Calculate</button>
-    <div id="output"></div>
-    <script src="area.js"></script>
+        <input type="number" class="side-input">
+        <button class="check-btn" id="calculate-btn">Calculate</button>
+        <div id="output"></div>
+    </main>
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links">
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://github.com/anupam1209">github</a>
+            </li>
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://twitter.com/AnupamPrakash">twitter</a>
+            </li>
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://www.linkedin.com/in/anupam-prakash-54822818b/">linkedIn</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="/scripts/area.js"></script>
 </body>
 
 </html>
