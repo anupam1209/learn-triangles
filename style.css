@@ -25,6 +25,10 @@
     margin-bottom: 0;
 }
 
+.para {
+    text-align: center;
+}
+
 input[type=number] {
     width: 20%;
     padding: 12px 20px;
