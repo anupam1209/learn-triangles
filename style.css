@@ -2,7 +2,42 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.is-triangle-main {
+.navigation {
+    background-color: #69db7c;
+    color: #fff;
+    padding: 0.5rem;
+    /* border-radius: 0.5rem; */
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1.5rem;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     max-width: 60vw;
@@ -16,7 +51,7 @@
 }
 
 .heading-triangle {
-    color: #51cf66;
+    color: #69db7c;
     margin-top: -2px;
 }
 
@@ -36,7 +71,7 @@ input[type=number] {
     box-sizing: border-box;
     text-align: center;
     border-radius: 0.5rem;
-    border: 0.5px solid #51cf66;
+    border: 0.5px solid#69db7c;
 }
 
 input::-webkit-outer-spin-button,
@@ -45,8 +80,8 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-#is-triangle-btn {
-    background-color: #51cf66;
+.check-btn {
+    background-color: #69db7c;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
@@ -63,7 +98,7 @@ input::-webkit-inner-spin-button {
 }
 
 .footer {
-    background-color: #51cf66;
+    background-color: #69db7c;
     padding: 1.5rem;
     text-align: center;
     color: #f8f9fa;
