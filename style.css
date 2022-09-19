@@ -131,3 +131,19 @@ input::-webkit-inner-spin-button {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/* CSS for quiz.html */
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.quiz-subheading {
+    text-align: center;
+    font-weight: 100;
+}
+
+.rules-heading {
+    text-align: center;
+}
