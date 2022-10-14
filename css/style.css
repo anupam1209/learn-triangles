@@ -101,6 +101,10 @@ input::-webkit-inner-spin-button {
     transition: all 0.3s;
 }
 
+.outputEl{
+  text-align: center;
+}
+
 .footer {
     background-color: #69db7c;
     padding: 1.5rem;
